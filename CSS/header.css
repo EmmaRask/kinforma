@@ -1,6 +1,19 @@
 header {
   display: flex;
   justify-content: space-between;
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%; /* gör den fullbredd */
+  z-index: 1000; /* så den ligger ovanpå innehållet */
+}
+
+.logo img {
+  scroll-behavior: smooth;
+  width: 8rem;
+  height: auto;
+  padding: 1rem;
 }
 
 .menu-btn {

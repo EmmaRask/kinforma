@@ -18,6 +18,7 @@
 
 <body>
     <header>
+        <a href="#" class="logo"><img src="/images/logga.png" alt="Company logotype Kinforma"></a>
         <button class="menu-btn" aria-controls="site-menu" aria-expanded="false">
             <img src="icons/Menu.svg" alt="" />
         </button>
@@ -41,35 +42,6 @@
       </ul>
     </nav> -->
     <main>
-        <section class="intro">
-            <img
-                class="logo"
-                src="icons/logo.svg"
-                alt="Kinformas logotype in color black with capital letters" />
-            <p class="scroll">[Scrolla för att utforska]</p>
-        </section>
-        <section class="hero"></section>
-        <section class="about">
-            <p class="tag-line">FRAMTIDENS MODE, IDAG</p>
-            <p class="headline-group">
-                <span class="right">Upplev en ny dimension av </span>
-                <span class="left">mode med vår senaste kollektion. </span>
-            </p>
-            <p class="sub-heading">
-                Designad av dig, drivet av teknik, <br />
-                skapat för planeten.
-            </p>
-            <p class="collection-name">KINFORMA KOLLEKTION 01</p>
-            <p class="description">
-                Kinforma föddes ur en enkel men kraftfull idé: att mode och teknik
-                tillsammans kan skapa en bättre framtid, för både människor och
-                planeten. Vårt namn kommer från två ord: “kin” som betyder släkt,
-                gemenskap och relationer, och “forma” som står för skapande,
-                förändring och design. Tillsammans bildar de vår grund: att forma
-                framtiden, tillsammans.
-            </p>
-            <button class="about-link">Lär mer om vår resa</button>
-        </section>
 
         <section class="collection-products">
             <div class="collection-header">
