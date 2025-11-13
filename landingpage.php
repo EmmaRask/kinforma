@@ -56,6 +56,7 @@
 
             <section class="pair reverse">
                 <img class="media-image" src="images/tent/tent-blue.jpg" alt="" />
+                <h3 class="media-label">the tent 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>
@@ -63,6 +64,7 @@
 
             <section class="pair">
                 <img class="media-image" src="images/tent/tent-orange.jpg" alt="" />
+                <h3 class="media-label">the tent 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>
@@ -70,6 +72,7 @@
 
             <section class="pair reverse">
                 <img class="media-image" src="images/tent/tent-beige.jpg" alt="" />
+                <h3 class="media-label">the tent 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>
@@ -77,6 +80,7 @@
 
             <section class="pair">
                 <img class="media-image" src="images/tent/tent-blue.jpg" alt="" />
+                <h3 class="media-label">the tent 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>

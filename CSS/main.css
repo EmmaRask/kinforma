@@ -10,6 +10,7 @@
 .pair {
   display: flex;
   align-items: center;
+  text-align: center;
   justify-content: center;
   min-height: 100vh;
   position: relative;
@@ -29,17 +30,14 @@
 
 .media-label {
   position: absolute;
-  bottom: 1.5rem;
+  top: 50%;
   left: 50%;
-  transform: translateX(-50%);
-  margin: 0;
-  padding: 0.5rem 1rem;
-  font-size: 2.625rem;
+  transform: translate(-50%, -50%);
+  font-size: 2.2rem;
   font-weight: 700;
   text-transform: uppercase;
-  color: #fff;
-  text-align: center;
   background: rgb(0, 0, 0, 0.25);
+  color: #fff;
 }
 
 /* ==== carousel ==== */
@@ -106,6 +104,11 @@
 
   .pair.reverse {
     grid-template-areas: "video image";
+  }
+
+  .media-label {
+    font-size: 6.25rem;
+    font-weight: 700;
   }
 }
 
