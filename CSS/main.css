@@ -1,29 +1,3 @@
-/* .description {
-  height: 13.67281rem;
-  align-self: stretch;
-  color: #000;
-  text-align: justify;
-  font-family: "IBM Plex Sans";
-  font-size: 1.0625rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 140%; /* 1.4875rem */
-/*margin-top: 5rem;
-/*} */
-
-/*
-.about-link {
-  /* color: #000;
-  font-family: "IBM Plex Sans", "sans-serif";
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 400;
-  line-height: 120%;
-  letter-spacing: -0.0175rem;
-  text-decoration: underline; */
-
-/*} */
-
 /* Produkterna */
 
 .collection-media {
@@ -51,43 +25,10 @@
   display: none;
 }
 
-.product-grid {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-  display: grid;
-  grid-template-columns: 1fr;
-}
-
-.product-card img {
-  width: 100%;
-  display: block;
-  object-fit: cover;
-}
-
-.product article {
-  display: flex;
-  flex-direction: column;
-  align-items: flex-start;
-}
-
-/* För hur den ska se ut i destop
-.hero img {
-  transform: scaleX(-1);
-  display: block;
-  width: 100%;
-  height: 25vh; /* styr hur mycket som syns */
-/* object-fit: cover; /* beskär för att fylla ytan */
-/*object-position: center top; /* håll fokus på toppen */
-/*}  */
-
 /* Om oss karusell  */
 
 /* newsletter */
 @media screen and (min-width: 900px) {
-  .collection-media {
-  }
-
   .pair {
     grid-template-columns: 1fr 1fr;
     align-items: stretch;
