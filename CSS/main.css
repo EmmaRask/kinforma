@@ -1,52 +1,115 @@
-/* Produkterna */
+/* .collection-media */
 
 .collection-media {
-  display: flex;
-  flex-direction: column;
-
   margin-top: 4rem;
 }
 
+/* ===== MOBILE FIRST images ===== */
+/* Varje sektion ≈ en screen, bara bild syns */
+
 .pair {
-  display: grid;
-  grid-template-columns: 1fr;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  position: relative;
 }
 
-.media-image,
-.media-video {
+.media-image {
   width: 100%;
   height: auto;
-  aspect-ratio: 16 /9;
+  max-width: 100vh;
   object-fit: cover;
   display: block;
 }
 
-.pair .media-video {
+.media-video {
   display: none;
 }
 
-/* Om oss karusell  */
+.media-label {
+  position: absolute;
+  bottom: 1.5rem;
+  left: 50%;
+  transform: translateX(-50%);
+  margin: 0;
+  padding: 0.5rem 1rem;
+  font-size: 2.625rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #fff;
+  text-align: center;
+  background: rgb(0, 0, 0, 0.25);
+}
 
-/* newsletter */
-@media screen and (min-width: 900px) {
+/* ==== carousel ==== */
+.carousel,
+.newsletter {
+  display: block;
+  min-height: 100vh;
+}
+
+.carousel-content {
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  align-items: flex-start;
+}
+
+.carousel-title {
+  font-size: 1.125rem;
+  text-transform: uppercase;
+  font-weight: 300;
+  line-height: 1.25rem;
+  letter-spacing: 0.01875rem;
+}
+
+.carousel-text {
+  font-size: 0.75rem;
+}
+
+.carousel img,
+.newsletter img {
+  width: 100%;
+  height: 100vh;
+  object-fit: cover;
+  display: block;
+}
+
+/* ===== MEDIA QUERIES DESKTOP ===== */
+@media (min-width: 900px) {
   .pair {
+    display: grid;
     grid-template-columns: 1fr 1fr;
-    align-items: stretch;
+    grid-template-areas: "image video";
+    height: 100vh;
+    overflow: hidden;
   }
 
-  .pair .media-video {
+  .media-image,
+  .media-video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
     display: block;
   }
 
-  .pair.reverse .media-image {
-    order: 2;
+  .media-image {
+    grid-area: image;
   }
 
-  .pair.reverse .media-video {
-    order: 1;
+  .media-video {
+    grid-area: video;
+    display: block;
+  }
+
+  .pair.reverse {
+    grid-template-areas: "video image";
   }
 }
 
+/* ==== accesebility ==== */
 @media (prefers-reduced-motion: reduce) {
   .pair .media-video {
     display: none;

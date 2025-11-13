@@ -48,30 +48,35 @@
 
             <section class="pair">
                 <img class="media-image" src="images/tent/tent-beige.jpg" alt="" />
+                <h3 class="media-label">the tent 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>
-
             </section>
 
             <section class="pair reverse">
-                <img class="media-image" src="images/backpack.png" alt="" />
+                <img class="media-image" src="images/tent/tent-blue.jpg" alt="" />
                 <video class="media-video" autoplay loop muted>
-                    <source src="videos/video-2.mp4">
+                    <source src="videos/video-1.mp4">
                 </video>
-
             </section>
 
             <section class="pair">
-                <img class="media-image" src="images/watch.png" alt="" />
+                <img class="media-image" src="images/tent/tent-orange.jpg" alt="" />
                 <video class="media-video" autoplay loop muted>
-                    <source src="videos/video-3.MOV">
+                    <source src="videos/video-1.mp4">
                 </video>
-
             </section>
 
             <section class="pair reverse">
-                <img class="media-image" src="images/shoe.jpg" alt="" />
+                <img class="media-image" src="images/tent/tent-beige.jpg" alt="" />
+                <video class="media-video" autoplay loop muted>
+                    <source src="videos/video-1.mp4">
+                </video>
+            </section>
+
+            <section class="pair">
+                <img class="media-image" src="images/tent/tent-blue.jpg" alt="" />
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>
@@ -83,12 +88,14 @@
 
 
         <section class="carousel">
-            <img src="images/carousel-img.jpg" alt="">
-            <h3>om oss</h3>
-            <p>Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
+            <img src="images/about-us-card.jpg" alt="">
+            <div class="carousel-content">
+                <h3 class="carousel-title">om oss</h3>
+                <p class="carousel-text">Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
+            </div>
         </section>
 
-        <section class="newsLetter">
+        <section class="newsletter">
             <img src="images/newsletter-img.jpg" alt="">
             <form>
                 <input type="text" placeholder="name@email.com">

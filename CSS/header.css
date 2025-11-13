@@ -5,8 +5,8 @@ header {
   position: fixed;
   top: 0;
   left: 0;
-  width: 100%; /* gör den fullbredd */
-  z-index: 1000; /* så den ligger ovanpå innehållet */
+  width: 100%;
+  z-index: 1000;
 }
 
 .logo img {

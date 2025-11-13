@@ -12,6 +12,9 @@ body {
 
 body {
   background-color: white;
+  font-family: "IBM Plex Sans", "sans-serif";
+  color: #000;
+  font-weight: 400;
 }
 
 @font-face {
