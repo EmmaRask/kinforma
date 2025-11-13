@@ -7,7 +7,7 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kinforma test</title>
+    <title>Kinforma</title>
     <link rel="stylesheet" href="CSS/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -43,44 +43,44 @@
     </nav> -->
     <main>
 
-        <section class="collection-products">
+        <section class="collection-media">
             <!-- produkt 1 -->
-            <ul class="product-grid">
-                <li class="product">
-                    <article class="product">
-                        <img src="images/tent/tent-beige.jpg" alt="" />
-                    </article>
-                </li>
 
-                <!-- produkt 2 -->
-                <li class="product">
-                    <article class="product">
-                        <img src="images/backpack.png" alt="" />
-                    </article>
-                </li>
+            <section class="pair">
+                <img class="media-image" src="images/tent/tent-beige.jpg" alt="" />
+                <video class="media-video" autoplay loop muted>
+                    <source src="videos/video-1.mp4">
+                </video>
 
-                <!-- produkt 3 -->
-                <li class="product">
-                    <article>
-                        <img src="images/watch.png" alt="" />
-                    </article>
-                </li>
+            </section>
 
-                <!-- produkt 4 -->
-                <li class="product">
-                    <article>
-                        <img src="images/shoe.jpg" alt="" />
-                    </article>
-                </li>
+            <section class="pair reverse">
+                <img class="media-image" src="images/backpack.png" alt="" />
+                <video class="media-video" autoplay loop muted>
+                    <source src="videos/video-2.mp4">
+                </video>
 
-                <!-- produkt 5 -->
-                <li class="product">
-                    <article>
-                        <img src="images/multistick.png" alt="" />
-                    </article>
-                </li>
-            </ul>
+            </section>
+
+            <section class="pair">
+                <img class="media-image" src="images/watch.png" alt="" />
+                <video class="media-video" autoplay loop muted>
+                    <source src="videos/video-3.MOV">
+                </video>
+
+            </section>
+
+            <section class="pair reverse">
+                <img class="media-image" src="images/shoe.jpg" alt="" />
+                <video class="media-video" autoplay loop muted>
+                    <source src="videos/video-1.mp4">
+                </video>
+
+            </section>
+
         </section>
+
+
 
         <section class="carousel">
             <img src="images/carousel-img.jpg" alt="">

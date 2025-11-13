@@ -26,14 +26,40 @@
 
 /* Produkterna */
 
-.product-grid {
-  list-style: none;
-  margin: 1rem;
+.collection-media {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 4rem;
+}
+
+.pair {
   display: grid;
   grid-template-columns: 1fr;
 }
 
-.product img {
+.media-image,
+.media-video {
+  width: 100%;
+  height: auto;
+  aspect-ratio: 16 /9;
+  object-fit: cover;
+  display: block;
+}
+
+.pair .media-video {
+  display: none;
+}
+
+.product-grid {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.product-card img {
   width: 100%;
   display: block;
   object-fit: cover;
@@ -58,3 +84,30 @@
 /* Om oss karusell  */
 
 /* newsletter */
+@media screen and (min-width: 900px) {
+  .collection-media {
+  }
+
+  .pair {
+    grid-template-columns: 1fr 1fr;
+    align-items: stretch;
+  }
+
+  .pair .media-video {
+    display: block;
+  }
+
+  .pair.reverse .media-image {
+    order: 2;
+  }
+
+  .pair.reverse .media-video {
+    order: 1;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .pair .media-video {
+    display: none;
+  }
+}
