@@ -1,22 +1,4 @@
-.logo {
-  width: 15rem;
-  height: auto;
-  display: block;
-}
-
-.collection-name {
-  color: #000;
-  text-align: right;
-  font-family: "IBM Plex Sans", "sans-serif";
-  font-size: 0.875rem;
-  font-style: normal;
-  font-weight: 300;
-  line-height: 120%; /* 1.05rem */
-  letter-spacing: -0.0175rem;
-  margin-top: 1rem;
-}
-
-.description {
+/* .description {
   height: 13.67281rem;
   align-self: stretch;
   color: #000;
@@ -26,43 +8,29 @@
   font-style: normal;
   font-weight: 300;
   line-height: 140%; /* 1.4875rem */
-  margin-top: 5rem;
-}
+/*margin-top: 5rem;
+/*} */
 
+/*
 .about-link {
-  color: #000;
+  /* color: #000;
   font-family: "IBM Plex Sans", "sans-serif";
   font-size: 0.875rem;
   font-style: normal;
   font-weight: 400;
-  line-height: 120%; /* 1.05rem */
-  letter-spacing: -0.0175rem;
-  text-decoration: underline;
-}
-
-.collection-header {
-  display: flex;
-  justify-content: space-between;
-  color: #000;
-  font-family: "IBM Plex Sans", "sans-serif";
-  font-size: 2rem;
-  font-style: normal;
-  font-weight: 400;
   line-height: 120%;
-  letter-spacing: -0.04rem;
-  margin-top: 5rem;
-  margin: 1rem;
-}
+  letter-spacing: -0.0175rem;
+  text-decoration: underline; */
+
+/*} */
+
+/* Produkterna */
 
 .product-grid {
   list-style: none;
   margin: 1rem;
   display: grid;
   grid-template-columns: 1fr;
-}
-
-.product {
-  margin-bottom: 1rem;
 }
 
 .product img {
@@ -77,22 +45,6 @@
   align-items: flex-start;
 }
 
-.product-name {
-  color: #000;
-  font-family: "IBM Plex Sans", "sans-serif";
-  font-size: 0.875rem;
-  line-height: 120%;
-  margin-top: 0.5rem;
-}
-
-.product-price {
-  color: #8a8a8a;
-  font-family: "IBM Plex Sans", "sans-serif";
-  font-size: 0.6875rem;
-  letter-spacing: -0.01375rem;
-  line-height: 120%;
-}
-
 /* För hur den ska se ut i destop
 .hero img {
   transform: scaleX(-1);
@@ -102,3 +54,7 @@
 /* object-fit: cover; /* beskär för att fylla ytan */
 /*object-position: center top; /* håll fokus på toppen */
 /*}  */
+
+/* Om oss karusell  */
+
+/* newsletter */

@@ -19,15 +19,15 @@
 <body>
     <header>
         <a href="#" class="logo"><img src="/images/logga.png" alt="Company logotype Kinforma"></a>
-        <button class="menu-btn" aria-controls="site-menu" aria-expanded="false">
-            <img src="icons/Menu.svg" alt="" />
-        </button>
         <nav class="header-nav">
             <button class="language-opt">
-                <img src="icons/SV_EN.svg" alt="" />
+                <img src="icons/Language.svg" alt="" />
             </button>
             <button class="shopping-cart">
-                <img src="icons/[00].svg" alt="" />
+                <img src="icons/Cart.svg" alt="" />
+            </button>
+            <button class="menu-btn" aria-controls="site-menu" aria-expanded="false">
+                <img src="icons/Menu.svg" alt="" />
             </button>
         </nav>
     </header>
@@ -44,65 +44,57 @@
     <main>
 
         <section class="collection-products">
-            <div class="collection-header">
-                <p>KOLLEKTION 01</p>
-                <button>SE MER</button>
-            </div>
             <!-- produkt 1 -->
             <ul class="product-grid">
                 <li class="product">
                     <article class="product">
-                        <img src="images/product-img.svg" alt="" />
-                        <p class="product-name">NAMN PÅ PRODUKT</p>
-                        <p class="product-price">SEK 10 000</p>
+                        <img src="images/tent/tent-beige.jpg" alt="" />
                     </article>
                 </li>
 
                 <!-- produkt 2 -->
                 <li class="product">
                     <article class="product">
-                        <img src="images/product-img.svg" alt="" />
-                        <p class="product-name">NAMN PÅ PRODUKT</p>
-                        <p class="product-price">SEK 10 000</p>
+                        <img src="images/backpack.png" alt="" />
                     </article>
                 </li>
 
                 <!-- produkt 3 -->
                 <li class="product">
                     <article>
-                        <img src="images/product-img.svg" alt="" />
-                        <p class="product-name">NAMN PÅ PRODUKT</p>
-                        <p class="product-price">SEK 10 000</p>
+                        <img src="images/watch.png" alt="" />
                     </article>
                 </li>
 
                 <!-- produkt 4 -->
                 <li class="product">
                     <article>
-                        <img src="images/product-img.svg" alt="" />
-                        <p class="product-name">NAMN PÅ PRODUKT</p>
-                        <p class="product-price">SEK 10 000</p>
+                        <img src="images/shoe.jpg" alt="" />
                     </article>
                 </li>
 
                 <!-- produkt 5 -->
                 <li class="product">
                     <article>
-                        <img src="images/product-img.svg" alt="" />
-                        <p class="product-name">NAMN PÅ PRODUKT</p>
-                        <p class="product-price">SEK 10 000</p>
-                    </article>
-                </li>
-
-                <!-- produkt 6 -->
-                <li class="product">
-                    <article>
-                        <img src="images/product-img.svg" alt="" />
-                        <p class="product-name">NAMN PÅ PRODUKT</p>
-                        <p class="product-price">SEK 10 000</p>
+                        <img src="images/multistick.png" alt="" />
                     </article>
                 </li>
             </ul>
+        </section>
+
+        <section class="carousel">
+            <img src="images/carousel-img.jpg" alt="">
+            <h3>om oss</h3>
+            <p>Upplev en ny dimension av mode med vår senaste kollektion. Designad av dig, drivet av teknik, skapat för planeten.</p>
+        </section>
+
+        <section class="newsLetter">
+            <img src="images/newsletter-img.jpg" alt="">
+            <form>
+                <input type="text" placeholder="name@email.com">
+                <button type="reset" class="newsletter-btn">submit</button>
+            </form>
+
         </section>
     </main>
     <footer>
