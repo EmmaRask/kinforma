@@ -18,7 +18,7 @@
 
 <body>
     <header>
-        <a href="#" class="logo"><img src="/images/logga.png" alt="Company logotype Kinforma"></a>
+        <a href="index.php" class="logo"><img src="icons/logo.svg" alt="Company logotype Kinforma"></a>
         <nav class="header-nav">
             <button class="language-opt">
                 <img src="icons/Language.svg" alt="" />
