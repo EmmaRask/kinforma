@@ -17,9 +17,8 @@
 }
 
 .media-image {
-  width: 100%;
-  height: auto;
-  max-width: 100vh;
+  width: 100vw;
+  height: 100vh;
   object-fit: cover;
   display: block;
 }
@@ -77,6 +76,9 @@
 
 /* ===== MEDIA QUERIES DESKTOP ===== */
 @media (min-width: 900px) {
+  .collection-media {
+    margin-top: 0;
+  }
   .pair {
     display: grid;
     grid-template-columns: 1fr 1fr;

@@ -1,5 +1,6 @@
 header {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   background-color: white;
   position: fixed;
@@ -7,21 +8,14 @@ header {
   left: 0;
   width: 100%;
   z-index: 1000;
-}
-
-.logo img {
-  scroll-behavior: smooth;
-  width: 8rem;
-  height: auto;
   padding: 1rem;
 }
 
-.header-nav {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-shrink: 0;
-  padding-right: 1rem;
+.logo img {
+  width: 8rem;
+  height: auto;
+  padding: 0;
+  display: block;
 }
 
 button {
@@ -30,38 +24,139 @@ button {
   cursor: pointer;
 }
 
-/* .site-menu {
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  list-style: none;
+}
+
+.header-icons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+
+.header-icons svg {
+  display: block;
+}
+
+.header-icons .menuIcon {
+  display: block;
+}
+
+.header-icons .closeIcon {
+  display: none;
+}
+
+/* ==== HAMBURGER-MENU ==== */
+.main-nav {
+  position: absolute;
+  top: 100%;
+  right: -100%;
+  width: 100%;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  z-index: 2000;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.fadeInMenu {
   position: fixed;
   top: 0;
-  left: 0;
+  right: 0;
   height: 100vh;
-  width: 70%;
-  background-color: white;
-  transform: translateX(-100%);
-  transition: transform 0.4s ease;
-  padding: 4rem 2rem;
+  width: 100%;
+  margin: 0;
+  padding-top: 10rem;
+  background: rgb(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
   z-index: 1000;
 }
 
-body.menu-open .site-menu {
+.fadeInMenu.showMenu {
   transform: translateX(0);
 }
 
-.site-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-
-.site-menu li {
-  margin-bottom: 1.5rem;
-}
-
-.site-menu a {
+.fadeInMenu a {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
   text-decoration: none;
-  color: black;
-  font-family: "IBM Plex Sans", sans-serif;
-  font-size: 1.2rem;
-} */
+  text-transform: uppercase;
+}
 
-/* ===== MEDIA QUERIES DESKTOP ===== */
+/* ==== MEDIA QUERIES DESKTOP ==== */
+@media (min-width: 900px) {
+  header {
+    position: static;
+    height: 4.375rem;
+    padding: 0 3rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .main-nav {
+    position: static;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+
+  .fadeInMenu {
+    position: static;
+    height: auto;
+    width: auto;
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    backdrop-filter: none;
+    display: flex;
+    flex-direction: row;
+    gap: 3rem;
+    align-items: center;
+    text-align: center;
+    transform: none;
+    transition: none;
+  }
+
+  .fadeInMenu.showMenu {
+    transform: none;
+  }
+
+  .fadeInMenu .item {
+    list-style: none;
+  }
+
+  .fadeInMenu a {
+    text-decoration: none;
+    color: #000;
+    font-size: 0.95rem;
+    font-weight: 500;
+    text-transform: uppercase;
+    letter-spacing: 0.08rem;
+  }
+
+  .header-icons {
+    gap: 2rem;
+  }
+
+  .hamburger {
+    display: none;
+  }
+}
