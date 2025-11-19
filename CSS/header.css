@@ -1,7 +1,4 @@
 header {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
   background-color: white;
   position: fixed;
   top: 0;
@@ -9,6 +6,13 @@ header {
   width: 100%;
   z-index: 1000;
   padding: 1rem;
+  border-bottom: 0.5px solid #000;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .logo img {
@@ -102,61 +106,58 @@ button {
 
 /* ==== MEDIA QUERIES DESKTOP ==== */
 @media (min-width: 900px) {
-  header {
-    position: static;
-    height: 4.375rem;
-    padding: 0 3rem;
+  .header-inner {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    margin: 0rem 0.5rem;
+  }
+
+  .logo img {
+    width: 7.5rem;
   }
 
   .main-nav {
-    position: static;
     flex: 1;
     display: flex;
-    justify-content: center;
+    position: static;
+    width: auto;
+    margin-left: 3rem;
   }
 
   .fadeInMenu {
     position: static;
     height: auto;
     width: auto;
+    padding-top: 0;
     margin: 0;
-    padding: 0;
     background: transparent;
     backdrop-filter: none;
-    display: flex;
     flex-direction: row;
-    gap: 3rem;
     align-items: center;
-    text-align: center;
-    transform: none;
+    gap: 3rem;
+    transform: none !important;
     transition: none;
   }
 
   .fadeInMenu.showMenu {
-    transform: none;
-  }
-
-  .fadeInMenu .item {
-    list-style: none;
+    transform: none !important;
   }
 
   .fadeInMenu a {
-    text-decoration: none;
-    color: #000;
-    font-size: 0.95rem;
-    font-weight: 500;
-    text-transform: uppercase;
-    letter-spacing: 0.08rem;
+    font-size: 0.875rem;
+    letter-spacing: 0.12rem;
+    font-weight: 400;
+  }
+
+  .home-btn {
+    display: none;
+  }
+
+  .header-icons .hamburger {
+    display: none;
   }
 
   .header-icons {
     gap: 2rem;
-  }
-
-  .hamburger {
-    display: none;
   }
 }
