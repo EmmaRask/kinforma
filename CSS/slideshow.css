@@ -1,0 +1,95 @@
+/* YTTERCONTAINER FÖR SLIDERN */
+.slider {
+  position: relative;
+  height: 100vh;
+  width: 100%;
+  text-align: left;
+  overflow: hidden;
+}
+
+.slides {
+  display: flex;
+  overflow-x: auto;
+  scroll-snap-type: x mandatory;
+  scroll-behavior: smooth;
+  /* scrollbar-width: none; */
+}
+
+/* Göm scrollbar i WebKit
+.slides::-webkit-scrollbar {
+  display: none;
+} */
+
+.slider::-webkit-scrollbar-thumb {
+  background: black;
+  border-radius: 10px;
+}
+.slider::-webkit-scrollbar-track {
+  background: transparent;
+}
+
+.slides > section {
+  scroll-snap-align: start;
+  flex: 0 0 100%;
+  width: 100%;
+  height: auto;
+  margin-right: 3.125rem;
+  background: #fff;
+  position: relative;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.slides img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+.slides > section h3 {
+  padding-left: 1rem;
+  margin-top: 1rem;
+  margin-bottom: 0.25rem;
+  font-size: 1.125rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+
+.slides p {
+  padding-left: 1rem;
+  margin: 0 0 1.5rem 0;
+  font-size: 0.75rem;
+  line-height: 1.5;
+}
+
+.slider-nav {
+  position: absolute;
+  bottom: 1rem;
+  right: 1rem;
+  display: flex;
+  gap: 0.5rem;
+}
+
+.slider-nav a {
+  display: inline-flex;
+  width: 1.5rem;
+  height: 1.5rem;
+  background: #858585;
+  color: #fff;
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  position: relative;
+  margin: 0;
+}
+
+.slider-nav a:active {
+  top: 1px;
+}
+
+.slider-nav a:focus {
+  background: #b65151;
+}
