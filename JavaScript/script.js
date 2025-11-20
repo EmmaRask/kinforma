@@ -22,15 +22,13 @@ items.forEach((menuItem) => {
   menuItem.addEventListener("click", menuFadeIn);
 });
 
-// Hitta alla produkter som har färgval
 const products = document.querySelectorAll(".js-product-image");
 
 products.forEach((productImage) => {
-  const folder = productImage.dataset.folder; // t.ex. "tent"
-  const name = productImage.dataset.name; // t.ex. "tent"
-  let currentColor = productImage.dataset.color; // t.ex. "beige"
+  const folder = productImage.dataset.folder;
+  const name = productImage.dataset.name;
+  let currentColor = productImage.dataset.color;
 
-  // Hitta knapparna som tillhör JUST denna produkt
   const parent = productImage.closest(".pair");
   const colorButtons = parent.querySelectorAll(".color-circle");
 
@@ -38,10 +36,9 @@ products.forEach((productImage) => {
     btn.addEventListener("click", () => {
       const color = btn.dataset.color;
 
-      if (color === currentColor) return; // redan vald
+      if (color === currentColor) return;
       currentColor = color;
 
-      // fade-effekt
       productImage.classList.add("fade");
 
       const nextSrc = `images/${folder}/${name}-${color}.jpg`;
@@ -54,7 +51,6 @@ products.forEach((productImage) => {
       };
       img.src = nextSrc;
 
-      // Markera vald knapp
       colorButtons.forEach((b) => b.classList.remove("active"));
       btn.classList.add("active");
     });
