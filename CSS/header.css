@@ -1,0 +1,163 @@
+header {
+  background-color: white;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
+  padding: 1rem;
+  border-bottom: 0.5px solid #000;
+}
+
+.header-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.logo img {
+  width: 8rem;
+  height: auto;
+  padding: 0;
+  display: block;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.header-icons {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  list-style: none;
+}
+
+.header-icons button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 2rem;
+}
+
+.header-icons svg {
+  display: block;
+}
+
+.header-icons .menuIcon {
+  display: block;
+}
+
+.header-icons .closeIcon {
+  display: none;
+}
+
+/* ==== HAMBURGER-MENU ==== */
+.main-nav {
+  position: absolute;
+  top: 100%;
+  right: -100%;
+  width: 100%;
+}
+
+.hamburger {
+  position: relative;
+  display: block;
+  z-index: 2000;
+  border: none;
+  background: white;
+  cursor: pointer;
+}
+
+.fadeInMenu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  height: 100vh;
+  width: 100%;
+  margin: 0;
+  padding-top: 10rem;
+  background: rgb(255, 255, 255, 0.4);
+  backdrop-filter: blur(10px);
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  text-align: center;
+  transform: translateX(100%);
+  transition: transform 0.3s ease;
+  z-index: 1000;
+}
+
+.fadeInMenu.showMenu {
+  transform: translateX(0);
+}
+
+.fadeInMenu a {
+  font-size: 2rem;
+  font-weight: 500;
+  color: #000;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+
+/* ==== MEDIA QUERIES DESKTOP ==== */
+@media (min-width: 900px) {
+  .header-inner {
+    display: flex;
+    align-items: center;
+    margin: 0rem 0.5rem;
+  }
+
+  .logo img {
+    width: 7.5rem;
+  }
+
+  .main-nav {
+    flex: 1;
+    display: flex;
+    position: static;
+    width: auto;
+    margin-left: 3rem;
+  }
+
+  .fadeInMenu {
+    position: static;
+    height: auto;
+    width: auto;
+    padding-top: 0;
+    margin: 0;
+    background: transparent;
+    backdrop-filter: none;
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+    transform: none !important;
+    transition: none;
+  }
+
+  .fadeInMenu.showMenu {
+    transform: none !important;
+  }
+
+  .fadeInMenu a {
+    font-size: 0.875rem;
+    letter-spacing: 0.12rem;
+    font-weight: 400;
+  }
+
+  .home-btn {
+    display: none;
+  }
+
+  .header-icons .hamburger {
+    display: none;
+  }
+
+  .header-icons {
+    gap: 2rem;
+  }
+}
