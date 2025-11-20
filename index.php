@@ -136,24 +136,19 @@
                 <section id="slide-2">
                     <img src="images/about-section/about-card-2.jpg" alt="">
                     <h3>the hub</h3>
-                    <p class="carousel-text">Upplev en ny dimension av mode med vår senaste kollektion.
-                        Designad av dig, drivet av teknik, skapat för planeten.</p>
+                    <p class="carousel-text">Vår levande mötesplats med café, co-working, event och inspirerande föreläsningar där människor,
+                        varumärken och idéer möts.
+                        Här hämtar, provar och returnerar du dina produkter på plats. Allt för att minska klimatpåverkan.</p>
                 </section>
 
                 <section id="slide-3">
                     <img src="images/about-section/about-card-3.jpg" alt="">
                     <h3>hållbarhet</h3>
-                    <p class="carousel-text">Upplev en ny dimension av mode med vår senaste kollektion.
-                        Designad av dig, drivet av teknik, skapat för planeten.</p>
+                    <p class="carousel-text">Nästan var femte plagg som beställs online skickas tillbaka
+                        — en process som ökar både utsläpp och förpackningsavfall med upp till 60 %.
+                        Genom att samla leveranser och returer på samma plats kan vi minska transporterna med upp till 70 %. </p>
                 </section>
             </div>
-
-            <div class="slider-nav">
-                <a href="#slide-1">1</a>
-                <a href="#slide-2">2</a>
-                <a href="#slide-3">3</a>
-            </div>
-
         </div>
        
     </main>
