@@ -105,7 +105,7 @@
             </section>
 
             <section class="pair reverse">
-                <img class="product-image" src="images/watch/Smartwatch 4K 1.jpg" alt="" />
+                <img class="product-image" src="images/watch/watch-green.jpg" alt="" />
                 <h3 class="media-label">the watch 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -126,47 +126,53 @@
         <!-- SLIDESHOW-->
         <div class="slider">
             <div class="slides">
-                <section id="slide-1">
+                <section class="slide">
                     <img src="images/about-section/about-card-1.jpg" alt="">
-                    <h3>om oss</h3>
-                    <p class="carousel-text">Upplev en ny dimension av mode med vår senaste kollektion.
-                        Designad av dig, drivet av teknik, skapat för planeten.</p>
+                    <article class="slide-content">
+                        <h3>om oss</h3>
+                        <p class="slide-text">Upplev en ny dimension av mode med vår senaste kollektion.
+                            Designad av dig, drivet av teknik, skapat för planeten.</p>
+                    </article>
                 </section>
 
-                <section id="slide-2">
+                <section class="slide">
                     <img src="images/about-section/about-card-2.jpg" alt="">
-                    <h3>the hub</h3>
-                    <p class="carousel-text">Vår levande mötesplats med café, co-working, event och inspirerande föreläsningar där människor,
-                        varumärken och idéer möts.
-                        Här hämtar, provar och returnerar du dina produkter på plats. Allt för att minska klimatpåverkan.</p>
+                    <article class="slide-content">
+                        <h3>the hub</h3>
+                        <p class="slide-text">Vår levande mötesplats med café, co-working, event och inspirerande föreläsningar där människor,
+                            varumärken och idéer möts.
+                            Här hämtar, provar och returnerar du dina produkter på plats. Allt för att minska klimatpåverkan.</p>
+                    </article>
                 </section>
 
-                <section id="slide-3">
+                <section class="slide">
                     <img src="images/about-section/about-card-3.jpg" alt="">
-                    <h3>hållbarhet</h3>
-                    <p class="carousel-text">Nästan var femte plagg som beställs online skickas tillbaka
-                        — en process som ökar både utsläpp och förpackningsavfall med upp till 60 %.
-                        Genom att samla leveranser och returer på samma plats kan vi minska transporterna med upp till 70 %. </p>
+                    <article class="slide-content">
+                        <h3>hållbarhet</h3>
+                        <p class="slide-text">Nästan var femte plagg som beställs online skickas tillbaka
+                            — en process som ökar både utsläpp och förpackningsavfall med upp till 60 %.
+                            Genom att samla leveranser och returer på samma plats kan vi minska transporterna med upp till 70 %. </p>
+                    </article>
                 </section>
             </div>
         </div>
-       
+
     </main>
     <!-- FOOTER -->
     <footer>
 
-    <!-- NEWSLETTER -->
-         <section class="newsletter">
+        <!-- NEWSLETTER -->
+        <section class="newsletter">
             <h3>nyhetsbrev</h3>
             <p>Anmäl dig till vårt nyhetsbrev, få tillgång till nya släpp och få 10% rabatt på din första beställning.</p>
             <form>
                 <input type="text" placeholder="Skriv in din e-postadress">
                 <button type="reset" class="newsletter-btn"><img src="icons/arrow_forward.svg" alt=""></button>
                 <br>
-                
+
             </form>
 
-         </section>
+        </section>
 
         <nav>
             <h3>kundtjänst</h3>
