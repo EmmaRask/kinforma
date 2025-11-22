@@ -111,17 +111,13 @@
                     <source src="videos/video-1.mp4">
                 </video>
             </section>
-
-            <section class="pair">
-                <img class="product-image" src="images/stick/multistick.jpg" alt="" />
-                <h3 class="media-label">the stick 01</h3>
-                <video class="media-video" autoplay loop muted>
-                    <source src="videos/video-1.mp4">
-                </video>
-            </section>
-
         </section>
 
+        <section class="merch-product">
+            <img src="images/stick/stick-01-box.png" alt="">
+            <img src="images/stick/stick-01.png" alt="">
+            <h3 class="media-label">the stick 01</h3>
+        </section>
 
         <!-- SLIDESHOW-->
         <div class="slider">
