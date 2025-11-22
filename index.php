@@ -114,7 +114,7 @@
         </section>
 
         <section class="merch-product">
-            <img src="images/stick/stick-01-box.png" alt="">
+            <img src="images/stick/stick-02-box.png" alt="">
             <img src="images/stick/stick-01.png" alt="">
             <h3 class="media-label">the stick 01</h3>
         </section>
