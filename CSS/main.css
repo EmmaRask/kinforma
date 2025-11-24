@@ -41,10 +41,11 @@
 
 .color-picker {
   position: absolute;
-  bottom: 2.5rem;
-  left: 50%;
+  bottom: 0.6rem;
+  right: 0rem;
   transform: translateX(-50%);
   display: flex;
+  flex-direction: column;
   gap: 0.75rem;
   z-index: 5;
 }
@@ -72,6 +73,17 @@
 
 .color-circle.active {
   border: 2px solid #000;
+}
+
+.merch-product {
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+.merch-product img {
+  height: 100vh;
+  width: 100%;
 }
 
 /* ===== MEDIA QUERIES DESKTOP ===== */
@@ -124,11 +136,13 @@
   .color-picker {
     position: absolute;
     bottom: 0.5rem;
-    left: 1.5rem;
+    left: 1rem;
+    right: auto;
+    transform: none;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
-    z-index: 10;
+    z-index: 8;
   }
 
   .product-image,
