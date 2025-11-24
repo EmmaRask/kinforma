@@ -56,3 +56,35 @@ products.forEach((productImage) => {
     });
   });
 });
+
+document.querySelectorAll('.pair').forEach(pair => {
+
+  const video = pair.querySelector('.media-video');
+  const img = pair.querySelector('.product-image');
+  const playBtn = pair.querySelector('.play-btn');
+
+  // Skip if something is missing
+  if (!video || !img || !playBtn) return;
+
+  // Start video on click
+  playBtn.addEventListener('click', () => {
+    img.style.display = 'none';
+    playBtn.style.display = 'none';
+    video.style.display = 'block';
+    video.play();
+  });
+
+  // Reset on click on video
+  video.addEventListener('click', reset);
+
+  // Reset when video ends
+  video.addEventListener('ended', reset);
+
+  function reset() {
+    video.pause();
+    video.currentTime = 0;
+    video.style.display = 'none';
+    img.style.display = 'block';
+    playBtn.style.display = 'block';
+  }
+});

@@ -76,6 +76,8 @@
                     data-name="tent"
                     data-color="beige" />
 
+                <button class="play-btn" aria-label="play video"></button>
+
                 <div class="color-picker">
                     <button class="color-circle active" data-color="beige"></button>
                     <button class="color-circle" data-color="blue"></button>
@@ -89,7 +91,8 @@
             </section>
 
             <section class="pair reverse">
-                <img class="product-image" src="images/backpack/backpack-beige.jpeg" alt="" />
+                <img class="product-image" src="images/backpack/backpack.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the backpack 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -98,6 +101,7 @@
 
             <section class="pair">
                 <img class="product-image" src="images/shoe/shoe.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the shoe 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -105,53 +109,62 @@
             </section>
 
             <section class="pair reverse">
-                <img class="product-image" src="images/watch/watch-green.jpg" alt="" />
+                <img class="product-image" src="images/watch/Smartwatch 4K 1.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the watch 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
                 </video>
             </section>
-        </section>
 
-        <section class="merch-product">
-            <img src="images/stick/stick-02-box.png" alt="">
-            <img src="images/stick/stick-01.png" alt="">
-            <h3 class="media-label">the stick 01</h3>
-        </section>
+            <section class="pair">
+                <img class="product-image" src="images/stick/multistick.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
+                <h3 class="media-label">the stick 01</h3>
+                <video class="media-video" autoplay loop muted>
+                    <source src="videos/video-1.mp4">
+                </video>
+            </section>
 
-        <!-- SLIDESHOW-->
-        <div class="slider">
-            <div class="slides">
-                <section class="slide">
-                    <img src="images/about-section/about-card-1.jpg" alt="">
-                    <article class="slide-content">
-                        <h3>om oss</h3>
-                        <p class="slide-text">Upplev en ny dimension av mode med vår senaste kollektion.
-                            Designad av dig, drivet av teknik, skapat för planeten.</p>
-                    </article>
-                </section>
+            <section class="merch-product">
+                <img src="images/stick/stick-02-box.png" alt="">
+                <img src="images/stick/stick-01.png" alt="">
+                <h3 class="media-label">the stick 01</h3>
+            </section>
 
-                <section class="slide">
-                    <img src="images/about-section/about-card-2.jpg" alt="">
-                    <article class="slide-content">
-                        <h3>the hub</h3>
-                        <p class="slide-text">Vår levande mötesplats med café, co-working, event och inspirerande föreläsningar där människor,
-                            varumärken och idéer möts.
-                            Här hämtar, provar och returnerar du dina produkter på plats. Allt för att minska klimatpåverkan.</p>
-                    </article>
-                </section>
+            <!-- SLIDESHOW-->
+            <div class="slider">
+                <div class="slides">
+                    <section class="slide">
+                        <img src="images/about-section/about-card-1.jpg" alt="">
+                        <article class="slide-content">
+                            <h3>om oss</h3>
+                            <p class="slide-text">Upplev en ny dimension av mode med vår senaste kollektion.
+                                Designad av dig, drivet av teknik, skapat för planeten.</p>
+                        </article>
+                    </section>
 
-                <section class="slide">
-                    <img src="images/about-section/about-card-3.jpg" alt="">
-                    <article class="slide-content">
-                        <h3>hållbarhet</h3>
-                        <p class="slide-text">Nästan var femte plagg som beställs online skickas tillbaka
-                            — en process som ökar både utsläpp och förpackningsavfall med upp till 60 %.
-                            Genom att samla leveranser och returer på samma plats kan vi minska transporterna med upp till 70 %. </p>
-                    </article>
-                </section>
+                    <section class="slide">
+                        <img src="images/about-section/about-card-2.jpg" alt="">
+                        <article class="slide-content">
+                            <h3>the hub</h3>
+                            <p class="slide-text">Vår levande mötesplats med café, co-working, event och inspirerande föreläsningar där människor,
+                                varumärken och idéer möts.
+                                Här hämtar, provar och returnerar du dina produkter på plats. Allt för att minska klimatpåverkan.</p>
+                        </article>
+                    </section>
+
+                    <section class="slide">
+                        <img src="images/about-section/about-card-3.jpg" alt="">
+                        <article class="slide-content">
+                            <h3>hållbarhet</h3>
+                            <p class="slide-text">Nästan var femte plagg som beställs online skickas tillbaka
+                                — en process som ökar både utsläpp och förpackningsavfall med upp till 60 %.
+                                Genom att samla leveranser och returer på samma plats kan vi minska transporterna med upp till 70 %. </p>
+                        </article>
+                    </section>
+                </div>
             </div>
-        </div>
 
     </main>
     <!-- FOOTER -->
