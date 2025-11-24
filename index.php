@@ -89,7 +89,7 @@
             </section>
 
             <section class="pair reverse">
-                <img class="product-image" src="images/backpack/backpack.jpg" alt="" />
+                <img class="product-image" src="images/backpack/backpack-beige.jpeg" alt="" />
                 <h3 class="media-label">the backpack 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
