@@ -75,6 +75,8 @@
                     data-folder="tent"
                     data-name="tent"
                     data-color="beige" />
+                
+                <button class="play-btn" aria-label="play video"></button>
 
                 <div class="color-picker">
                     <button class="color-circle active" data-color="beige"></button>
@@ -90,6 +92,7 @@
 
             <section class="pair reverse">
                 <img class="product-image" src="images/backpack/backpack.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the backpack 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -98,6 +101,7 @@
 
             <section class="pair">
                 <img class="product-image" src="images/shoe/shoe.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the shoe 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -106,6 +110,7 @@
 
             <section class="pair reverse">
                 <img class="product-image" src="images/watch/Smartwatch 4K 1.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the watch 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -114,6 +119,7 @@
 
             <section class="pair">
                 <img class="product-image" src="images/stick/multistick.jpg" alt="" />
+                <button class="play-btn" aria-label="play video"></button>
                 <h3 class="media-label">the stick 01</h3>
                 <video class="media-video" autoplay loop muted>
                     <source src="videos/video-1.mp4">
@@ -163,7 +169,7 @@
                 <input type="text" placeholder="Skriv in din e-postadress">
                 <button type="reset" class="newsletter-btn"><img src="icons/arrow_forward.svg" alt=""></button>
                 <br>
-                
+
             </form>
 
          </section>
