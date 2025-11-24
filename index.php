@@ -126,8 +126,6 @@
                 </video>
             </section>
 
-        </section>
-
         <section class="merch-product">
             <img src="images/stick/stick-02-box.png" alt="">
             <img src="images/stick/stick-01.png" alt="">
