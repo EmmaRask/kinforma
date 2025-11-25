@@ -3,16 +3,19 @@ const items = document.querySelectorAll(".item");
 const hamburger = document.querySelector(".hamburger");
 const closeIcon = document.querySelector(".close-icon");
 const menuIcon = document.querySelector(".menu-icon");
+const header = document.querySelector("header");
 
 function menuFadeIn() {
   if (fadeInMenu.classList.contains("showMenu")) {
     fadeInMenu.classList.remove("showMenu");
     closeIcon.style.display = "none";
     menuIcon.style.display = "block";
+    header.classList.remove("menu-open");
   } else {
     fadeInMenu.classList.add("showMenu");
     closeIcon.style.display = "block";
     menuIcon.style.display = "none";
+    header.classList.add("menu-open");
   }
 }
 

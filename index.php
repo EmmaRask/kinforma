@@ -25,45 +25,28 @@
                 <img src="logo/kinforma-logo.svg" alt="Company logotype Kinforma">
             </a>
 
-            <!-- NAVIGATION DESKTOP-->
-            <nav class="menu-desktop">
-                <ul>
-                    <li> <a href="#">the gear</a></li>
-                    <li> <a href="#">the hub</a></li>
-                    <li> <a href="#">om oss</a></li>
-                    <li> <a href="#">kontakt</a></li>
+            <!-- NAVIGATION -->
+            <nav class="main-nav">
+                <ul class="fade-in-menu">
+                    <li class="item"><a href="">the gear</a></li>
+                    <li class="item"><a href="">the hub</a></li>
+                    <li class="item"><a href="">om oss</a></li>
+                    <li class="item"><a href="">kontakt</a></li>
+                    <li class="item"><a href="">SV | <span class="inactive-lang">EN</span></a></li>
                 </ul>
             </nav>
 
             <!-- ICONS -->
             <menu class="header-icons">
-
-                <button class="language-opt">
-                    <img src="icons/language-opt.jpg" alt="">
-                </button>
-
-                <button class="shopping-cart" aria-label="Varukorg">
-                    <img src="icons/shopping-cart.png" alt="Varukorg">
-                </button>
+                <li> <a href="#" class="cart">[00]</a></li>
 
                 <button class="hamburger">
                     <img class="menu-icon" src="icons/menu-icon.svg" alt="Meny ikon">
-
                     <img class="close-icon" src="icons/close-icon.svg" alt="Stänga menyn">
                 </button>
             </menu>
         </div>
 
-        <!-- NAVIGATION MOBILE-->
-        <nav class="main-nav">
-            <ul class="fade-in-menu">
-                <li class="item home-btn"><a href="#">the gear</a></li>
-                <li class="item"><a href="">the hub</a></li>
-                <li class="item"><a href="">om oss</a></li>
-                <li class="item"><a href="">kontakt</a></li>
-                <li class="item"><a href="">SV | <span class="inactive-lang">EN</span></a></li>
-            </ul>
-        </nav>
     </header>
 
     <!-- MAIN -->
@@ -154,7 +137,7 @@
                 <h3 class="media-label">the watch 01</h3>
 
                 <video class="media-video" autoplay loop muted>
-                    <source src="videos/backpack-01.mov">
+                    <source src="videos/watch-01.mp4">
                 </video>
             </section>
 
