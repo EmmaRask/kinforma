@@ -78,14 +78,14 @@
 .play-btn {
   position: absolute;
   z-index: 20;
-  top: 95%;
-  left: 95%;
+  top: 95.8%;
+  left: 94.58%;
   transform: translateX(-50%);
-  width: 2.5rem;
-  height: 2.5rem;
+  width: 1.5rem;
+  height: 1.5rem;
   border-radius: 50%;
   border: none;
-  background: rgba(255, 255, 255, 0.25);
+  background: rgba(000, 000, 000, 0.6);
   backdrop-filter: blur(6px);
   display: flex;
   justify-content: center;
@@ -96,6 +96,7 @@
 }
 .play-btn::before {
   content: "";
+  transform: scale(0.55);
   border-style: solid;
   border-width: 0.7rem 0 0.7rem 1.2rem;
   border-color: transparent transparent transparent white;
