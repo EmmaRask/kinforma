@@ -61,13 +61,13 @@
                     data-name="backpack"
                     data-color="beige" />
 
-                
+
                 <div class="color-picker">
                     <button class="color-circle active" data-color="beige"></button>
                     <button class="color-circle" data-color="green"></button>
                     <button class="color-circle" data-color="black"></button>
                 </div>
-                
+
                 <button class="play-btn" aria-label="play video"></button>
 
 
@@ -95,7 +95,7 @@
                 <h3 class="media-label">the tent 01</h3>
 
                 <video class="media-video" autoplay loop muted>
-                    <source src="videos/backpack-01.mov">
+                    <source src="videos/tent-01.mp4">
                 </video>
             </section>
 
