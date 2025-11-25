@@ -5,7 +5,8 @@ header {
   left: 0;
   width: 100%;
   z-index: 2000;
-  padding: 1rem;
+  height: var(--header-height);
+  padding: 0 1rem;
   border-bottom: 0.5px solid #000;
 }
 
@@ -13,6 +14,8 @@ header {
   display: flex;
   align-items: center;
   justify-content: space-between;
+  width: 100%;
+  height: var(--header-height);
 }
 
 .logo img {

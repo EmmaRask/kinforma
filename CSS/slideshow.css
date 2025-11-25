@@ -1,6 +1,6 @@
 .slider {
   position: relative;
-  height: 100vh;
+  min-height: calc(100vh - var(--header-height));
   width: 100%;
   text-align: left;
   overflow: hidden;

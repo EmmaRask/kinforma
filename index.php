@@ -73,17 +73,17 @@
 
             <section class="pair">
                 <img class="product-image js-product-image"
-                    src="images/backpack/backpack-beige.jpeg" alt=""
+                    src="images/backpack/backpack-beige.jpg" alt=""
                     data-folder="backpack"
                     data-name="backpack"
                     data-color="beige" />
 
+                <button class="play-btn" aria-label="play video"></button>
 
                 <div class="color-picker">
                     <button class="color-circle active" data-color="beige"></button>
                     <button class="color-circle" data-color="green"></button>
                     <button class="color-circle" data-color="black"></button>
-                    <button class="play-btn" aria-label="play video"></button>
                 </div>
 
                 <h3 class="media-label">the backpack 01</h3>
@@ -116,9 +116,9 @@
 
             <section class="pair">
                 <img class="product-image js-product-image"
-                    src="images/tent/tent-beige.png" alt=""
-                    data-folder="tent"
-                    data-name="tent"
+                    src="images/shoe/shoe-beige.jpg" alt=""
+                    data-folder="shoe"
+                    data-name="shoe"
                     data-color="beige" />
 
                 <button class="play-btn" aria-label="play video"></button>
@@ -132,15 +132,15 @@
                 <h3 class="media-label">the shoe 01</h3>
 
                 <video class="media-video" autoplay loop muted>
-                    <source src="videos/backpack-01.mov">
+                    <source src="videos/shoe-01.mp4">
                 </video>
             </section>
 
             <section class="pair reverse">
                 <img class="product-image js-product-image"
-                    src="images/tent/tent-beige.png" alt=""
-                    data-folder="tent"
-                    data-name="tent"
+                    src="images/watch/watch-green.jpg" alt=""
+                    data-folder="watch"
+                    data-name="watch"
                     data-color="beige" />
 
                 <button class="play-btn" aria-label="play video"></button>
