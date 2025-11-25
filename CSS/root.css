@@ -4,6 +4,10 @@
   margin: 0;
 }
 
+:root {
+  --header-height: 5rem;
+}
+
 html,
 body {
   height: 100%;
@@ -12,4 +16,8 @@ body {
   font-family: "IBM Plex Sans", "sans-serif";
   color: #000;
   overflow-x: hidden;
+  /* --play-size: 3.5rem;
+  --color-gap: 0.75rem;
+  --side-offset: 1rem;
+  --bottom-offset: 0.6rem; */
 }

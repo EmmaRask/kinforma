@@ -5,18 +5,20 @@ footer {
   grid-auto-rows: auto;
   column-gap: 0;
   row-gap: 1.5rem;
+  text-transform: uppercase;
   padding-top: 2rem;
+  padding-bottom: 2rem;
 }
 
 .newsletter {
   grid-column: 1 / -1;
   display: block;
   padding-bottom: 4rem;
+
 }
 
 footer nav {
   padding-left: 1rem;
-  text-transform: uppercase;
 }
 
 footer nav:nth-of-type(2) {
@@ -53,8 +55,7 @@ footer .logo-footer img {
   width: 100%;
   height: auto;
   display: block;
-  padding: 2rem 0.2rem;
-  padding-bottom: 0.2rem;
+  padding: 2rem 0.2rem 0 0.2rem;
 }
 
 @media screen and (min-width: 600px) {
@@ -68,11 +69,11 @@ footer .logo-footer img {
   }
 }
 
-@media screen and (min-width: 900px) {
+@media screen and(min-width: 900px) {
   footer {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;
-    row-gap: 2rem;
+    row-gap:  2rem;
     padding-top: 4rem;
     align-items: start;
     grid-auto-rows: auto;
@@ -80,28 +81,27 @@ footer .logo-footer img {
   footer nav:nth-of-type(1) {
     grid-column: 1 / 2;
     grid-row: 1 / 2;
-    margin-left: 5rem;
+    padding-left: 2rem;
   }
-  footer nav:nth-of-type(2) {
+  footer nav:nth-last-of-type(2) {
     grid-column: 2 / 3;
     grid-row: 1 / 2;
-    margin-left: 1rem;
+    padding-left: 0.5rem;
   }
 
-  .newsletter {
+  .newsletter{
     grid-column: 3 / 4;
     grid-row: 1 / 2;
     align-self: end;
     padding-bottom: 0;
-    margin-right: 4rem;
   }
 
-  footer .logo-footer {
+  footer .logo-footer{
     grid-column: 1 / -1;
     grid-row: 2 / 3;
   }
-
   footer nav ul {
-    gap: 1rem;
+    gap: 1 rem;
   }
 }
+
