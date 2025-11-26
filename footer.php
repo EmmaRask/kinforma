@@ -15,7 +15,7 @@
     </section>
 
     <nav>
-        <h3>kundtjänst</h3>
+        <h3>KUNDTJÄNST</h3>
         <ul>
             <li><a href="javascript:void(0)">kontakta oss</a></li>
             <li><a href="javascript:void(0)">allmänna villkor</a></li>
@@ -25,7 +25,7 @@
     </nav>
 
     <nav>
-        <h3>om oss</h3>
+        <h3>OM OSS</h3>
         <ul>
             <li><a href="javascript:void(0)">butiker</a></li>
             <li><a href="javascript:void(0)">the hub</a></li>
