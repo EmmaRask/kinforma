@@ -42,8 +42,8 @@
 .color-picker {
   position: absolute;
   bottom: 2rem;
-  right: 0rem;
-  transform: translateX(-50%);
+  right: 0.8rem;
+  transform: none;
   display: flex;
   flex-direction: column;
   gap: 0.75rem;
@@ -78,9 +78,7 @@
 .play-btn {
   position: absolute;
   z-index: 20;
-  top: 95.8%;
-  left: 94.58%;
-  transform: translateX(-50%);
+  transform: none;
   width: 1.5rem;
   height: 1.5rem;
   border-radius: 50%;
@@ -91,6 +89,8 @@
   justify-content: center;
   align-items: center;
   cursor: pointer;
+  right: 0.8rem;
+  bottom: 2rem;
 
   /* Triangel-play ikon */
 }
@@ -107,6 +107,28 @@
   background: rgba(255, 255, 255, 0.35);
 }
 
+.btn-controls {
+  position: absolute;
+  bottom : 2rem;
+  right: 0.8rem;
+  transform: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  z-index: 10;
+  gap:0.5rem;
+}
+
+.btn-controls .color-picker,
+.btn-controls .play-btn {
+  position: static;
+  bottom: auto;
+  right: auto;
+  left: auto;
+  transform: none;
+}
+
+
 /* ===== MEDIA QUERIES DESKTOP ===== */
 @media (min-width: 900px) {
   .pair {
@@ -117,10 +139,10 @@
 
   .color-picker {
     grid-area: image;
-    position: absolute;
+    position: static;
     bottom: 0.5rem;
-    left: 1rem;
-    right: auto;
+    left: auto;
+    right: 1rem;
     transform: none;
     display: flex;
     flex-direction: column;
@@ -158,6 +180,38 @@
   .play-btn {
     display: none;
   }
+
+  .btn-controls {
+    grid-area: image;
+    position: absolute;
+    bottom: 1rem;
+    right: 1rem;
+    transform: none;
+    display: flex;
+    flex-direction: column;
+    gap: 0.75rem;
+    z-index: 8;
+  }
+
+  .btn-controls .color-picker,
+  .btn-controls .play-btn {
+    position: static;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    transform: none;
+}
+
+/* OVERRIDE: låt colorpicker följa flexlayouten i .btn-controls även på desktop */
+.btn-controls .color-picker {
+    position: static;
+    bottom: auto;
+    left: auto;
+    right: auto;
+    transform: none;
+}
+
+
 }
 
 /* ==== accesebility ==== */
