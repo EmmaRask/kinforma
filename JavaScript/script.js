@@ -5,6 +5,10 @@ const closeIcon = document.querySelector(".close-icon");
 const menuIcon = document.querySelector(".menu-icon");
 const header = document.querySelector("header");
 
+function isDesktop() {
+  return window.matchMedia("(min-width: 900px)").matches;
+}
+
 function menuFadeIn() {
   if (fadeInMenu.classList.contains("showMenu")) {
     fadeInMenu.classList.remove("showMenu");
