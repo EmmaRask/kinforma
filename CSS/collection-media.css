@@ -90,10 +90,9 @@
   align-items: center;
   cursor: pointer;
   right: 0.8rem;
-  bottom: 2rem;
-
-  /* Triangel-play ikon */
+  bottom: 2rem;  
 }
+
 .play-btn::before {
   content: "";
   transform: scale(0.55);
@@ -153,7 +152,7 @@
   .product-image,
   .media-video {
     width: 100%;
-    height: 91vh; /* innan 100% */
+    height: 91vh; 
     object-fit: cover;
     display: block;
     margin: 0 auto;
@@ -202,7 +201,7 @@
     transform: none;
 }
 
-/* OVERRIDE: låt colorpicker följa flexlayouten i .btn-controls även på desktop */
+
 .btn-controls .color-picker {
     position: static;
     bottom: auto;
