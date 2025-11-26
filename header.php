@@ -30,7 +30,7 @@
             </a>
 
             <nav class="main-nav" aria-label="Huvudmeny">
-                <ul class="fade-in-menu" id="main-menu">
+                <ul class="fade-in-menu">
                     <li class="item"><a href="">the gear</a></li>
                     <li class="item"><a href="">the hub</a></li>
                     <li class="item"><a href="">om oss</a></li>
