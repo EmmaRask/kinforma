@@ -19,7 +19,7 @@ require __DIR__ . '/header.php';
                     <button class="color-circle" data-color="green"></button>
                     <button class="color-circle" data-color="black"></button>
                 </div>
-                <button class="play-btn" aria-label="play video"></button>
+                <button class="play-btn" aria-label="Spela upp produktvideo"></button>
             </div>
 
             <h3 class="media-label">the backpack 01</h3>
@@ -35,14 +35,14 @@ require __DIR__ . '/header.php';
                 data-name="tent"
                 data-color="beige" />
 
-            
+
             <div class="btn-controls">
                 <div class="color-picker">
                     <button class="color-circle active" data-color="beige"></button>
                     <button class="color-circle" data-color="green"></button>
                     <button class="color-circle" data-color="black"></button>
                 </div>
-                <button class="play-btn" aria-label="play video"></button>
+                <button class="play-btn" aria-label="Spela upp produktvideo"></button>
             </div>
 
             <h3 class="media-label">the tent 01</h3>
@@ -65,7 +65,7 @@ require __DIR__ . '/header.php';
                     <button class="color-circle" data-color="green"></button>
                     <button class="color-circle" data-color="black"></button>
                 </div>
-                <button class="play-btn" aria-label="play video"></button>
+                <button class="play-btn" aria-label="Spela upp produktvideo"></button>
             </div>
 
             <h3 class="media-label">the shoe 01</h3>
@@ -82,14 +82,14 @@ require __DIR__ . '/header.php';
                 data-name="watch"
                 data-color="beige" />
 
-            
+
             <div class="btn-controls">
                 <div class="color-picker">
                     <button class="color-circle active" data-color="beige"></button>
                     <button class="color-circle" data-color="green"></button>
                     <button class="color-circle" data-color="black"></button>
                 </div>
-                <button class="play-btn" aria-label="play video"></button>
+                <button class="play-btn" aria-label="Spela upp produktvideo"></button>
             </div>
 
             <h3 class="media-label">the watch 01</h3>
@@ -102,7 +102,7 @@ require __DIR__ . '/header.php';
         <section class="pair">
             <img class="product-image" src="images/stick/stick-01.jpg" alt="" />
 
-            <button class="play-btn" aria-label="play video"></button>
+            <button class="play-btn" aria-label="Spela upp produktvideo"></button>
 
             <h3 class="media-label">the stick 01</h3>
             <video class="media-video" autoplay loop muted>
@@ -119,7 +119,7 @@ require __DIR__ . '/header.php';
                         <div class="slide-heading">
                             <h3>om oss</h3>
 
-                            <button class="slide-btn">
+                            <button class="slide-btn" aria-label="Läs mer om oss">
                                 <img src="icons/arrow-outward.svg" alt="">
                             </button>
                         </div>
@@ -135,7 +135,7 @@ require __DIR__ . '/header.php';
                         <div class="slide-heading">
                             <h3>the hub</h3>
 
-                            <button class="slide-btn">
+                            <button class="slide-btn" aria-label="Läs mer om The Hub">
                                 <img src="icons/arrow-outward.svg" alt="">
                             </button>
                         </div>
@@ -151,7 +151,7 @@ require __DIR__ . '/header.php';
                         <div class="slide-heading">
                             <h3>hållbarhet</h3>
 
-                            <button class="slide-btn">
+                            <button class="slide-btn" aria-label="Läs mer om hållbarhet">
                                 <img src="icons/arrow-outward.svg" alt="">
                             </button>
                         </div>
