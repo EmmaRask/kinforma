@@ -27,12 +27,12 @@
         <div class="header-inner">
             <!-- LOGOTYPE  -->
             <a href="index.php" class="logo">
-                <img src="logo/kinforma-logo.svg" alt="Company logotype Kinforma">
+                <img src="logo/kinforma-logo.svg" alt="Företagsloggan">
             </a>
 
             <!-- NAVIGATION -->
-            <nav class="main-nav">
-                <ul class="fade-in-menu">
+            <nav class="main-nav" aria-label="Huvudmeny">
+                <ul class="fade-in-menu" id="main-menu">
                     <li class="item"><a href="">the gear</a></li>
                     <li class="item"><a href="">the hub</a></li>
                     <li class="item"><a href="">om oss</a></li>
@@ -43,7 +43,7 @@
 
             <!-- ICONS -->
             <menu class="header-icons">
-                <li> <a href="#" class="cart">[00]</a></li>
+                <li> <a href="#" class="cart" aria-label="Varukorg">[00]</a></li>
 
                 <button class="hamburger">
                     <img class="menu-icon" src="icons/menu-icon.svg" alt="Meny ikon">

@@ -7,7 +7,7 @@
         <p>Anmäl dig till vårt nyhetsbrev, få tillgång till nya släpp och få 10% rabatt på din första beställning.</p>
         <form>
             <input type="email" id="newsletter-email" name="email" autocomplete="email" placeholder="Skriv in din e-postadress">
-            <button type="reset" class="newsletter-btn"><img src="icons/arrow-forward.svg" alt=""></button>
+            <button type="reset" class="newsletter-btn"><img src="icons/arrow-forward.svg" alt="Anmäl till nyhetsbrev"></button>
             <br>
 
         </form>
@@ -34,7 +34,7 @@
         </ul>
     </nav>
 
-    <a href="index.php" class="logo-footer"><img src="logo/kinforma-logo.svg" alt="Company logotype Kinforma"></a>
+    <a href="index.php" class="logo-footer"><img src="logo/kinforma-logo.svg" alt="Företagsloggan"></a>
 </footer>
 
 <script src="javascript/script.js"></script>
