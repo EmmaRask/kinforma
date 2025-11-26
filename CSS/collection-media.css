@@ -158,11 +158,11 @@
   .play-btn {
     display: none;
   }
+}
 
-  /* ==== accesebility ==== */
-  @media (prefers-reduced-motion: reduce) {
-    .pair .media-video {
-      display: none;
-    }
+/* ==== accesebility ==== */
+@media (prefers-reduced-motion: reduce) {
+  .pair .media-video {
+    display: none;
   }
 }
