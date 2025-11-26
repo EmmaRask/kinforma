@@ -60,27 +60,38 @@ products.forEach((productImage) => {
   });
 });
 
+function isDesktop() {
+  return window.matchMedia("(min-width: 900px)").matches;
+}
+
 document.querySelectorAll(".pair").forEach((pair) => {
   const video = pair.querySelector(".media-video");
   const img = pair.querySelector(".product-image");
   const playBtn = pair.querySelector(".play-btn");
 
-  // Skip if something is missing
   if (!video || !img || !playBtn) return;
 
-  // Start video on click
+  // Start video on click – bara om INTE desktop
   playBtn.addEventListener("click", () => {
+    if (isDesktop()) return; // gör inget i desktop-läge
+
     img.style.display = "none";
     playBtn.style.display = "none";
     video.style.display = "block";
     video.play();
   });
 
-  // Reset on click on video
-  video.addEventListener("click", reset);
+  // Reset på klick på video – bara mobil
+  video.addEventListener("click", () => {
+    if (isDesktop()) return;
+    reset();
+  });
 
-  // Reset when video ends
-  video.addEventListener("ended", reset);
+  // Reset när videon tar slut – bara mobil
+  video.addEventListener("ended", () => {
+    if (isDesktop()) return;
+    reset();
+  });
 
   function reset() {
     video.pause();
