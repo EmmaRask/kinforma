@@ -33,15 +33,16 @@ products.forEach((productImage) => {
   let currentColor = productImage.dataset.color;
 
   const parent = productImage.closest(".pair");
+  if (!parent) return;
+
   const colorButtons = parent.querySelectorAll(".color-circle");
 
   colorButtons.forEach((btn) => {
     btn.addEventListener("click", () => {
       const color = btn.dataset.color;
-
       if (color === currentColor) return;
-      currentColor = color;
 
+      currentColor = color;
       productImage.classList.add("fade");
 
       const nextSrc = `images/${folder}/${name}-${color}.jpg`;
@@ -60,38 +61,12 @@ products.forEach((productImage) => {
   });
 });
 
-function isDesktop() {
-  return window.matchMedia("(min-width: 900px)").matches;
-}
-
 document.querySelectorAll(".pair").forEach((pair) => {
   const video = pair.querySelector(".media-video");
   const img = pair.querySelector(".product-image");
   const playBtn = pair.querySelector(".play-btn");
 
   if (!video || !img || !playBtn) return;
-
-  // Start video on click – bara om INTE desktop
-  playBtn.addEventListener("click", () => {
-    if (isDesktop()) return; // gör inget i desktop-läge
-
-    img.style.display = "none";
-    playBtn.style.display = "none";
-    video.style.display = "block";
-    video.play();
-  });
-
-  // Reset på klick på video – bara mobil
-  video.addEventListener("click", () => {
-    if (isDesktop()) return;
-    reset();
-  });
-
-  // Reset när videon tar slut – bara mobil
-  video.addEventListener("ended", () => {
-    if (isDesktop()) return;
-    reset();
-  });
 
   function reset() {
     video.pause();
@@ -100,4 +75,23 @@ document.querySelectorAll(".pair").forEach((pair) => {
     img.style.display = "block";
     playBtn.style.display = "block";
   }
+
+  playBtn.addEventListener("click", () => {
+    if (isDesktop()) return;
+
+    img.style.display = "none";
+    playBtn.style.display = "none";
+    video.style.display = "block";
+    video.play();
+  });
+
+  video.addEventListener("click", () => {
+    if (isDesktop()) return;
+    reset();
+  });
+
+  video.addEventListener("ended", () => {
+    if (isDesktop()) return;
+    reset();
+  });
 });
