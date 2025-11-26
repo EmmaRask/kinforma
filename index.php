@@ -16,7 +16,7 @@
         rel="stylesheet" />
 </head>
 
-<body>
+ <body>
     <!-- HEADER -->
     <header>
         <div class="header-inner">
