@@ -37,7 +37,7 @@
     <a href="index.php" class="logo-footer"><img src="logo/kinforma-logo.svg" alt="Company logotype Kinforma"></a>
 </footer>
 
-<script src="javaScript/script.js"></script>
+<script src="javascript/script.js"></script>
 </body>
 
 </html>

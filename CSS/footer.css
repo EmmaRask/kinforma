@@ -57,18 +57,7 @@ footer .logo-footer img {
   padding: 2rem 0.2rem 0 0.2rem;
 }
 
-@media screen and (min-width: 600px) {
-  footer {
-    row-gap: 2rem;
-    column-gap: 1rem;
-    padding-top: 3rem;
-  }
-  footer nav {
-    padding-left: 1.5rem;
-  }
-}
-
-@media screen and(min-width: 900px) {
+@media (min-width: 900px) {
   footer {
     grid-template-columns: 1fr 1fr 1fr;
     column-gap: 2rem;

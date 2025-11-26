@@ -138,7 +138,7 @@ header.menu-open {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 0 2rem;
   }
 
   .logo img {
@@ -161,9 +161,11 @@ header.menu-open {
 
     flex-direction: row;
     align-items: center;
-    gap: 10rem;
+    gap: 5rem;
+    flex-wrap: nowrap;
     transform: none;
-    margin: 0 15rem;
+    margin: 0 5rem;
+    transition: none;
   }
 
   .fade-in-menu.showMenu {
