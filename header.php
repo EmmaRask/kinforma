@@ -4,13 +4,13 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta property="og:title" content="Kinforma"/>
-    <meta property="og:type" content="webbsite"/>
-    <meta property="og:url" content="https://emmafredling.se/kinforma/"/>
-    <meta property="og:image" content="https://emmafredling.se/kinforma/images/backpack/backpack-beige.jpg"/>
-    <meta property="og:description" 
-            content="A Lifestyle brand with focus on hiking gear. 
-            School project with Yrgo classes DD, CG and WU"/>
+    <meta property="og:title" content="Kinforma" />
+    <meta property="og:type" content="webbsite" />
+    <meta property="og:url" content="https://emmafredling.se/kinforma/" />
+    <meta property="og:image" content="https://emmafredling.se/kinforma/images/backpack/backpack-beige.jpg" />
+    <meta property="og:description"
+        content="A Lifestyle brand with focus on hiking gear. 
+            School project with Yrgo classes DD, CG and WU" />
     <title>Kinforma</title>
     <link rel="stylesheet" href="css/style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com" />
@@ -22,15 +22,13 @@
 
 <body>
 
-    <!-- HEADER -->
     <header>
         <div class="header-inner">
-            <!-- LOGOTYPE  -->
+
             <a href="index.php" class="logo">
                 <img src="logo/kinforma-logo.svg" alt="Företagsloggan">
             </a>
 
-            <!-- NAVIGATION -->
             <nav class="main-nav" aria-label="Huvudmeny">
                 <ul class="fade-in-menu" id="main-menu">
                     <li class="item"><a href="">the gear</a></li>
@@ -41,7 +39,6 @@
                 </ul>
             </nav>
 
-            <!-- ICONS -->
             <menu class="header-icons">
                 <li> <a href="#" class="cart" aria-label="Varukorg">[00]</a></li>
 

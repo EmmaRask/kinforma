@@ -1,6 +1,3 @@
-/* ===== MOBILE FIRST images ===== */
-/* Varje sektion ≈ en screen, bara bild syns */
-
 .collection-media {
   margin-top: var(--header-height);
 }
@@ -90,7 +87,7 @@
   align-items: center;
   cursor: pointer;
   right: 0.8rem;
-  bottom: 2rem;  
+  bottom: 2rem;
 }
 
 .play-btn::before {
@@ -108,14 +105,14 @@
 
 .btn-controls {
   position: absolute;
-  bottom : 2rem;
+  bottom: 2rem;
   right: 0.8rem;
   transform: none;
   display: flex;
   flex-direction: column;
   align-items: center;
   z-index: 10;
-  gap:0.5rem;
+  gap: 0.5rem;
 }
 
 .btn-controls .color-picker,
@@ -127,8 +124,6 @@
   transform: none;
 }
 
-
-/* ===== MEDIA QUERIES DESKTOP ===== */
 @media (min-width: 900px) {
   .pair {
     display: grid;
@@ -152,7 +147,7 @@
   .product-image,
   .media-video {
     width: 100%;
-    height: 91vh; 
+    height: 91vh;
     object-fit: cover;
     display: block;
     margin: 0 auto;
@@ -199,21 +194,17 @@
     right: auto;
     left: auto;
     transform: none;
-}
+  }
 
-
-.btn-controls .color-picker {
+  .btn-controls .color-picker {
     position: static;
     bottom: auto;
     left: auto;
     right: auto;
     transform: none;
+  }
 }
 
-
-}
-
-/* ==== accesebility ==== */
 @media (prefers-reduced-motion: reduce) {
   .pair .media-video {
     display: none;

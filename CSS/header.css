@@ -69,9 +69,8 @@ button {
   opacity: 0.7;
 }
 
-/* ==== HAMBURGER-MENU ==== */
 .main-nav {
-  position: relative; /*absolute innan */
+  position: relative;
 }
 
 header.menu-open {
@@ -128,7 +127,6 @@ header.menu-open {
   text-transform: uppercase;
 }
 
-/* ==== MEDIA QUERIES DESKTOP ==== */
 @media (min-width: 900px) {
   header {
     padding: 0;

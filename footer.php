@@ -1,11 +1,9 @@
-
 <?php
 require __DIR__ . '/header.php';
 ?>
 
 <footer>
 
-    <!-- NEWSLETTER -->
     <section class="newsletter">
         <h3>nyhetsbrev</h3>
         <p>Anmäl dig till vårt nyhetsbrev, få tillgång till nya släpp och få 10% rabatt på din första beställning.</p>
