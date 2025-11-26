@@ -144,7 +144,7 @@
             </section>
 
             <section class="pair">
-                <img class="product-image" src="images/stick/stick-01.jpg" alt="" />
+                <img class="product-image" src="images/watch/watch-beige.jpg" alt="" />
 
                 <button class="play-btn" aria-label="play video"></button>
 
