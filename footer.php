@@ -15,20 +15,20 @@
     <nav>
         <h3>KUNDTJÄNST</h3>
         <ul>
-            <li><a href="javascript:void(0)">kontakta oss</a></li>
-            <li><a href="javascript:void(0)">allmänna villkor</a></li>
-            <li><a href="javascript:void(0)">leverans & returer</a></li>
-            <li><a href="javascript:void(0)">integritetspolicy</a></li>
+            <li><a href="javascript:void(0)">KONTAKTA OSS</a></li>
+            <li><a href="javascript:void(0)">ALLMÄNNA VILLKOR</a></li>
+            <li><a href="javascript:void(0)">LEVERANS & RETURER</a></li>
+            <li><a href="javascript:void(0)">INTEGRITETSPOLICY</a></li>
         </ul>
     </nav>
 
     <nav>
         <h3>OM OSS</h3>
         <ul>
-            <li><a href="javascript:void(0)">butiker</a></li>
-            <li><a href="javascript:void(0)">the hub</a></li>
-            <li><a href="javascript:void(0)">the gear</a></li>
-            <li><a href="javascript:void(0)">hållbarhet</a></li>
+            <li><a href="javascript:void(0)">BUTIKER</a></li>
+            <li><a href="javascript:void(0)">THE HUB</a></li>
+            <li><a href="javascript:void(0)">THE GEAR</a></li>
+            <li><a href="javascript:void(0)">HÅLLBARHET</a></li>
         </ul>
     </nav>
 
